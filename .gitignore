@@ -1,2 +1,8 @@
 
 .DS_Store
+
+CodeMirror/.gitignore
+
+code.houfeng.net.sublime-workspace
+
+code.houfeng.net.sublime-project
