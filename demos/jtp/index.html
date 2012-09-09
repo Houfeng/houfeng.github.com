@@ -72,14 +72,12 @@
 		        $excute();
 		    };
 		    editorOption.onScroll=function(){
-		    	var p=srcEditor.getScrollInfo();
-		    	dstEditor.scrollTo(p.x,p.y);
-		    }
+		    	var srcInfo=srcEditor.getScrollInfo();
+		    	var dstInfo=dstEditor.getScrollInfo();
+		    	dstEditor.scrollTo(dstInfo.width*srcInfo.x/(srcInfo.width-427),dstInfo.height*srcInfo.y/(srcInfo.height-302));
+		    };
 		    var srcEditor = CodeMirror.fromTextArea($get('srcBox'),editorOption);
-		    editorOption.onScroll=function(){
-		    	var p=dstEditor.getScrollInfo();
-		    	srcEditor.scrollTo(p.x,p.y);
-		    }
+		    editorOption.onScroll=null;
 		    editorOption.onChange=null;
 		    var dstEditor = CodeMirror.fromTextArea($get('dstBox'),editorOption);
 		    editorOption.onChange=function () {
