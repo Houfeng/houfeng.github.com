@@ -67,13 +67,21 @@
 		        width:" 300px"
  			};
  			//初始化编辑器
- 			editorOption.onChange=function (n) {
+ 			editorOption.onChange=function () {
 		        $excute();
 		    };
+		    editorOption.onScroll=function(){
+		    	var p=srcEditor.getScrollInfo();
+		    	dstEditor.scrollTo(p.x,p.y);
+		    }
 		    var srcEditor = CodeMirror.fromTextArea($get('srcBox'),editorOption);
+		    editorOption.onScroll=function(){
+		    	var p=dstEditor.getScrollInfo();
+		    	srcEditor.scrollTo(p.x,p.y);
+		    }
 		    editorOption.onChange=null;
 		    var dstEditor = CodeMirror.fromTextArea($get('dstBox'),editorOption);
-		    editorOption.onChange=function (n) {
+		    editorOption.onChange=function () {
 		        $excute();
 		    };
 		    editorOption.lineNumbers=false;
