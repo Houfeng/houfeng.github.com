@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 程序员，你还酷吗？
-category: essay
+category: 闲谈
 ---
 
 <blockquote>
