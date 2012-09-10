@@ -6,18 +6,6 @@
 		<title>侯锋博客</title>
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
 		<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
-		<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/lzyy">
-		<script type="text/javascript">
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-1281124-20']);
-		  _gaq.push(['_trackPageview']);
-
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-		</script>
 	</head>
 
 	<body>
@@ -27,19 +15,14 @@
 				<div id="sidebar">
 					<ul>
 						<li>
-							<a href="/">ARTICLES</a>
+							<a href="/">文章</a>
 							<ul>
 								{% for category in site.categories %}
 								<li><a href="/{{ category[0]  }}.html"> {{ category[0]  }}</a></li>
 								{% endfor %}
 							</ul>
 						</li>
-						<li><a href="/qoute.html">QUOTES</a></li>
-						<li><a href="/projects">PROJECTS</a></li>
-						<li><a href="/about.html">ABOUT</a></li>
-						<!--<li><a href="http://leezhong.com/resume/">RESUME</a></li>-->
-						<!--<li><a href="/links.html">LINKS</a></li>-->
-						<li><a href="/contact.html">CONTACT</a></li>
+						<li><a href="/qoute.html">关于我</a></li>
 					</ul>
 				</div>
 				
