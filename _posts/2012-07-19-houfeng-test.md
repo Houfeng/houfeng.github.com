@@ -1,6 +1,6 @@
 ---
 layout: post
-title: test
+title: 新博客第一篇文章
 category: 闲谈
 ---
 
