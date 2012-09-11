@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何做好架构设计？
-published: true
+published: false
 ---
 
 ---
@@ -10,6 +10,7 @@ published: true
 
 ###什么是架构设计?
 人们对一个结构内的元素及元素间关系的一种主观映射的产物。
+###如何做好架构设计
 
 
 
