@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 ---
 
 # 如何做架构设计？
