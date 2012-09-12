@@ -19,23 +19,9 @@
 					<br />
 					<br/>
 				</div>
-		<!--评论组件开始-->
-        <!-- Duoshuo Comment BEGIN -->
-	<div class="ds-thread" data-thread-key="" 
-	data-title="" data-author-key="" data-url=""></div>
-	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"houfeng"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = 'http://static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		|| document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- Duoshuo Comment END -->
-        <!--评论组件结束-->
+		<!--comment-->
+{% include comment.html %}
+        <!--/comment-->
 			</div>
 
 				<div id="footer">
@@ -62,7 +48,9 @@
 					<span style="color:#bbb;font-size:12px">make the world a little better and eaiser</span>
 					<p style="clear:both"></p>
 				</div>
+				<!--stat-->
 				{% include stat.html %}	
+				<!--/stat-->
 	</body>
 </html>
 
