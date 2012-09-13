@@ -12,18 +12,7 @@
 		<div id="wrapper">
 			<div id="content" class="index">
 				<div id="sidebar">
-					<ul>
-						<li>
-							<a href="/">最新文章</a>
-							<!--ul>
-								{% for category in site.categories %}
-								<li><a href="/{{ category[0]  }}.html"> {{ category[0]  }}</a></li>
-								{% endfor %}
-							</ul-->
-						</li>
-                      <li><a href='/projects.html'>开源项目</a></li>
-						<li><a href="/about.html">关于我</a></li>
-					</ul>
+					{% include menu.html %}
 				</div>
 				
 				<div id="main">
