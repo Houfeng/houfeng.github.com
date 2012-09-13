@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: .net编写的外挂式绿色五笔
 published: true
 ---
