@@ -84,6 +84,9 @@ div#wrapper {
 #content a {
 
 }
+#content a:hover{
+	 text-decoration: underline;
+}
 
 #content .posts li a {
 	font-weight:normal;
