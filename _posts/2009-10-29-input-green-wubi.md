@@ -13,11 +13,13 @@ published: true
 
 输入窗口:
 
-![](http://images.cnblogs.com/cnblogs_com/houfeng/20091029122615_3.jpg)
+![](http://images.cnblogs.com/cnblogs_com/houfeng/20091029122614_1.jpg)
+
 
 设置窗口:
 
-![](http://images.cnblogs.com/cnblogs_com/houfeng/20091029122614_1.jpg)
+![](http://images.cnblogs.com/cnblogs_com/houfeng/20091029122615_2.jpg)
+
 
 字词编辑器:
 
