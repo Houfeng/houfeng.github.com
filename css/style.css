@@ -442,4 +442,6 @@ div#disqus_thread li ul li {
 	list-style:none;
 }
 
-.gsc-thumbnail-inside{padding-left: 0px !important;}
+/*google search*/
+.gsc-thumbnail-inside, .gsc-url-top{padding-left: 0px !important;}
+.gsc-search-button { vertical-align: middle;}
