@@ -441,3 +441,5 @@ div#disqus_thread li{
 div#disqus_thread li ul li {
 	list-style:none;
 }
+
+.gsc-thumbnail-inside{padding-left: 0px !important;}
