@@ -1,3 +1,9 @@
+---
+layout: post
+title: linux系统防火墙简单设置
+published: true
+---
+
 Linux还是比较常用的，于是我研究了一下Linux关闭防火墙命令，在这里拿出来和大家分享一下，希望你能学会Linux关闭防火墙命令 。
 
 ###永久性生效，重启后不会复原

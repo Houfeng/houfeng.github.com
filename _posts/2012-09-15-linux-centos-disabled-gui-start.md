@@ -1,3 +1,9 @@
+---
+layout: post
+title: 禁用CentOS Linux系统的图形界面
+published: true
+---
+
 禁用Centos GUI图形界面
 9 十月 2009, 10:47 下午
 vi /etc/inittab
