@@ -12,7 +12,7 @@ published: true
 
 但经过测试，发现ios5.x已经支持position:fiexd,但通过position:fiexd一般只能实现页整的整体滚动时页头或页脚的固定，在实现页面某一小区域的滚动效果还是不太方便。
 
-###-webkit-overflow-scrolling: touch;
+###通过webkit特有的样式实现
 经测试ios5.1已支持如下样式定义：
 
 > -webkit-overflow-scrolling: touch;
