@@ -6,7 +6,7 @@ published: true
 ###问题
 开发一个针对pc的web应用时，在需要不随内容滚动的页头或面页脚时，通常的做法是如下样式：
 
->.ui-head{ position:fixed; }
+> .ui-head{ position:fixed; }
 
 但是如上的样式放到手机上，我测试过android2.x、android4.x、ios4.x皆不支持position:fixed;
 
@@ -15,7 +15,7 @@ published: true
 ###-webkit-overflow-scrolling: touch;
 经测试ios5.1已支持如下样式定义：
 
->-webkit-overflow-scrolling: touch;
+> -webkit-overflow-scrolling: touch;
 
 通过如上定义，ios5.x可以样式（不用js）实现局部区域滚动；但目前我试过android2.x及android4.x发现依然不支持些样式。
 
