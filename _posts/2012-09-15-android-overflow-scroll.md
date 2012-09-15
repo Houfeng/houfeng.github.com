@@ -22,6 +22,8 @@ published: true
 ###通过javascript实现
 为了实现兼容主流平台及浏览器，常见的做法（很多web开发框架就是依赖javascript实现）
 
+未写完……
+
 
 
 
