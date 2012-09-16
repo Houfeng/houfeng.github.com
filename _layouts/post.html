@@ -25,29 +25,9 @@
 			</div>
 
 				<div id="footer">
-					<div id="feed">
-						<div class="badget" id="github">
-							<a href="http://github.com/houfeng">
-							<span class="service">github</span>
-							<span class="info"> </span>
-							</a>
-						</div>
-						<div class="badget" id="twt">
-							<a href="http://twitter.com/hou_feng">
-							<span class="service">twitter</span>
-							<span class="info">600+</span>
-							</a>
-						</div>
-						<div class="badget" id="feedburner">
-							<a href="http://feeds.feedburner.com/houfeng">
-							<span class="service">rss</span>
-							<span class="info"> </span>
-							</a>
-						</div>
-					</div>
-					<span style="color:#bbb;font-size:12px">make the world a little better and eaiser</span>
-					<p style="clear:both"></p>
-				</div>
+					{{ include foot.html }}
+				</div>	
+
 				<!--stat-->
 				{% include stat.html %}	
 				<!--/stat-->
