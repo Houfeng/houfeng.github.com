@@ -82,16 +82,14 @@ div#wrapper {
 }
 
 #content a {
-	color:blue;
 	text-decoration: underline;
 }
 .posts a{
-	color:#333;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 .posts a:hover{
 	 color:#000;
-	 text-decoration: underline;
+	 text-decoration: underline !!important;
 }
 
 #content .posts li a {
