@@ -82,9 +82,14 @@ div#wrapper {
 }
 
 #content a {
-
+	color:blue;
+	text-decoration: underline;
 }
-#content a:hover{
+.posts a{
+	color:#333;
+	text-decoration: none;
+}
+.posts a:hover{
 	 color:#000;
 	 text-decoration: underline;
 }
