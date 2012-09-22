@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 图象处理常用特效算法
+category: 算法
 published: true
 ---
 

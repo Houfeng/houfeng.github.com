@@ -1,6 +1,7 @@
 ---
 layout: post
 title: linux系统防火墙简单设置
+category: 随笔
 published: true
 ---
 

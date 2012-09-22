@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 如何做好架构设计？
+category: 随笔
 published: false
 ---
 

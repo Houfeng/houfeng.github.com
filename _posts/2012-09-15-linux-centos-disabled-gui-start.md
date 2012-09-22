@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 禁用CentOS Linux系统的图形界面
+category: 随笔
 published: true
 ---
 

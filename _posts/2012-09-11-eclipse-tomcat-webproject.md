@@ -1,7 +1,7 @@
 ---
 layout: post
 title: eclipse+tomcat web工程引用其它工程
-category: 闲谈
+category: 随笔
 published: true
 ---
 

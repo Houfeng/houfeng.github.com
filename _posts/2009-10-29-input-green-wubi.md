@@ -1,6 +1,7 @@
 ---
 layout: post
 title: .net编写的外挂式绿色五笔
+category: 编程
 published: true
 ---
 

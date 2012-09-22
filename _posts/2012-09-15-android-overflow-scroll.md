@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 移动web开发局部区域滚动问题
+category: 随笔
 published: true
 ---
 ###问题
