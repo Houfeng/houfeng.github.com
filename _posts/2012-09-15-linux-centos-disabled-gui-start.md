@@ -5,7 +5,8 @@ published: true
 ---
 
 禁用Centos GUI图形界面
-9 十月 2009, 10:47 下午
+
+
 vi /etc/inittab
 
 把默认的
