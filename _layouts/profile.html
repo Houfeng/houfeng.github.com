@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-		<title>{{ page.title }} | 侯锋博客</title>
+		<title>{{ page.title }} | {% include name.html %}</title>
 		<meta name="keywords" content="{{ page.title }},侯锋博客">
 		<meta name="description" content="{{ page.title }}">
 		<link rel="stylesheet" type="text/css" href="/styles/style.css" />
@@ -11,8 +11,8 @@
 
 	<body>
 		<div id="logo">
-			<span id="tags">思绪偶尔在这里停留,记录我的一点一滴...</span>
-			<h1><a href="/">侯锋博客</a></h1>
+			<span id="tags">{% include description.html %}</span>
+			<h1><a href="/">{% include name.html %}</a></h1>
 		</div>
 		<div id="wrapper">
 			<div id="content" class="index">
