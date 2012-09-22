@@ -10,7 +10,8 @@
 	<body>
 		<div id="logo">
 			<span id="tags">思绪偶尔在这里停留,记录我的一点一滴...</span>
-			<h1><a href="/">侯锋博客</a></h1></div>
+			<h1><a href="/">侯锋博客</a></h1>
+		</div>
 		<div id="wrapper">
 			<div id="content" class="index">
 				<div id="sidebar">
@@ -20,14 +21,15 @@
 				<div id="main">
 					{{ content }}
 				</div>
+			</div>
+			<div id="footer">
+				{% include foot.html %}
+			</div>	
 
-				<div id="footer">
-					{% include foot.html %}
-				</div>	
-
-				<!--stat-->
-				{% include stat.html %}	
-				<!--/stat-->
+			<!--stat-->
+			{% include stat.html %}	
+			<!--/stat-->
+		</div>
 	</body>
 </html>
 
