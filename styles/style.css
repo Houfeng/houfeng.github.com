@@ -445,4 +445,4 @@ div#disqus_thread li ul li {
 .gsc-thumbnail-inside, .gsc-url-top{padding-left: 0px !important;}
 .gsc-search-button { vertical-align: middle;}
 /*duo shuo*/
-.ds-powered-by {display: none !important;}
+.ds-powered-by, .ds-logo {display: none !important;}
