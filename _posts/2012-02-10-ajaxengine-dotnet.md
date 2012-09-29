@@ -43,32 +43,32 @@ AjaxEngine的思路还是较为巧妙的！
 
 页面使用Demo:
 
- using System;
- using AjaxEngines;
- namespace AjaxEngine.Demo
- {
-     public partial class _Default : AjaxPageBase
-     {
-         protected void Page_Load(object sender, EventArgs e)
-         {
-         }
-         protected void Button1_Click(object sender, EventArgs e)
-         {
-             this.AjaxEngine.ShowMessageBox("houfeng");
-         }
-         /// <summary>
-         /// 参数和返回值都必须是string类型
-         /// </summary>
-         /// <param name="x"></param>
-         /// <param name="y"></param>
-         /// <returns></returns>
-         [AjaxMethod]
-         public string  Add(string x, string y)
-         {
-             return (x + y).ToString();
-         }
-     }
- }
+ 	using System;
+ 	using AjaxEngines;
+ 	namespace AjaxEngine.Demo
+ 	{
+     	public partial class _Default : AjaxPageBase
+     	{
+         	protected void Page_Load(object sender, EventArgs e)
+         	{
+         	}
+         	protected void Button1_Click(object sender, EventArgs e)
+         	{
+             	this.AjaxEngine.ShowMessageBox("houfeng");
+         	}
+         	/// <summary>
+         	/// 参数和返回值都必须是string类型
+         	/// </summary>
+         	/// <param name="x"></param>
+         	/// <param name="y"></param>
+         	/// <returns></returns>
+         	[AjaxMethod]
+         	public string  Add(string x, string y)
+         	{
+             	return (x + y).ToString();
+         	}
+     	}
+ 	}
 
  
 Handler使用Demo:
