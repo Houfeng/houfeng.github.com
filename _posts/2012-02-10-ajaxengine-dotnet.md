@@ -44,10 +44,8 @@ AjaxEngine的思路还是较为巧妙的！
 页面使用Demo:
 
 ```C#
-
  using System;
  using AjaxEngines;
-  
  namespace AjaxEngine.Demo
  {
      public partial class _Default : AjaxPageBase
@@ -55,12 +53,10 @@ AjaxEngine的思路还是较为巧妙的！
          protected void Page_Load(object sender, EventArgs e)
          {
          }
-  
          protected void Button1_Click(object sender, EventArgs e)
          {
              this.AjaxEngine.ShowMessageBox("houfeng");
          }
-  
          /// <summary>
          /// 参数和返回值都必须是string类型
          /// </summary>
@@ -74,17 +70,14 @@ AjaxEngine的思路还是较为巧妙的！
          }
      }
  }
- 
 ```
 
  
 Handler使用Demo:
 
 ```C#
-
      using AjaxEngines;
      using AjaxEngines.JsonHandlers;
-      
      namespace AjaxEngine.Demo
      {
          /// <summary>
@@ -99,9 +92,7 @@ Handler使用Demo:
            }
        }
      }
- 
      $.getJSON("Handler1.ashx", { method: "add", x: 1, y: 2 }, function (dt) {
            alert(dt);
-     });
-                 
+     });             
 ```
