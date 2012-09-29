@@ -5,11 +5,12 @@ category: 编程
 published: true
 ---
 
-项目地址:http://www.houfeng.net/page/AjaxEngine.aspx
+项目地址: [http://www.houfeng.net/page/AjaxEngine.aspx](http://www.houfeng.net/page/AjaxEngine.aspx)
 
 ###2009年中
 工作之余写了一个简单非常方便使用Ajax框架（应该还称不是框架）！并用一个小仓库管理项目 
-2009年末，确实是年末2009-12-29，写了一篇文章，介如年中所写的“框架”，文章地址：http://www.cnblogs.com/houfeng/archive/2009/12/29/1635350.html
+2009年末，确实是年末2009-12-29，写了一篇文章，介如年中所写的“框架”;
+文章地址：[http://www.cnblogs.com/houfeng/archive/2009/12/29/1635350.html](http://www.cnblogs.com/houfeng/archive/2009/12/29/1635350.html)
  
 
 ###2010年初
