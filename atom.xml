@@ -17,7 +17,7 @@ layout: nil
  {% for post in site.posts limit:20 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://blog.leezhong.com{{ post.url }}"/>
+   <link href="http://houfeng.net{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://houfeng.net{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
