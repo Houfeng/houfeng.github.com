@@ -393,7 +393,7 @@ span.balloon {
     padding: 5px;
 	-moz-border-radius:5px;
 	-webki-border-radius:5px;
-	border-radius:0px;
+	border-radius:2px;
 }
 
 #tags {
