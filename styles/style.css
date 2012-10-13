@@ -228,7 +228,10 @@ div#content li ul li {
 	margin-bottom:50px;
 }
 .cnt h3 {
-	background:none repeat scroll 0 0 #DDDDDD;
+	background:none repeat scroll 0 0 #555;
+	filter:alpha(opacity=90);
+	opacity: 0.9;
+	color:#eee;
 	font-size:25px;
 	margin:20px -20px;
 	padding:10px 20px;
