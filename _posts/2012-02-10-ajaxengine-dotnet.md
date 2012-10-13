@@ -44,6 +44,7 @@ AjaxEngine的思路还是较为巧妙的！
 
 页面使用Demo:
 
+{% highlight CSharp %}
  	using System;
  	using AjaxEngines;
  	namespace AjaxEngine.Demo
@@ -70,7 +71,7 @@ AjaxEngine的思路还是较为巧妙的！
          	}
      	}
  	}
-
+{% endhighlight %}
  
 Handler使用Demo:
 
@@ -92,4 +93,4 @@ Handler使用Demo:
      }
      $.getJSON("Handler1.ashx", { method: "add", x: 1, y: 2 }, function (dt) {
            alert(dt);
-     });             
+     });
