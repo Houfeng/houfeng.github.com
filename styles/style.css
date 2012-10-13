@@ -79,7 +79,7 @@ div#wrapper {
 	color:#111;
 	font-size:14px;
 	line-height:190%;
-	margin:0 auto 50px;
+	margin:0 auto 10px;
 	padding:20px;
 	/*text-shadow:0 1px 0 #FFFFFF;*/
 	width:700px;
@@ -452,6 +452,8 @@ div#disqus_thread li ul li {
 }
 .copyright{
 	padding: 5px;
+	color: #eee;
+	margin-bottom: 15px;
 	text-align: center;
 }
 
