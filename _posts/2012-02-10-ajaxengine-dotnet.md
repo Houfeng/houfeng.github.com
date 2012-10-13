@@ -44,7 +44,7 @@ AjaxEngine的思路还是较为巧妙的！
 
 页面使用Demo:
 
-{% highlight javascript %}
+{% highlight c# %}
  	using System;
  	using AjaxEngines;
  	namespace AjaxEngine.Demo
