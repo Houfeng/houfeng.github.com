@@ -454,6 +454,7 @@ div#disqus_thread li ul li {
 	color: #888;
 	text-align: center;
 }
+.copyright a{color:#888;}
 
 /*google search*/
 .gsc-thumbnail-inside, .gsc-url-top{padding-left: 0px !important;}
