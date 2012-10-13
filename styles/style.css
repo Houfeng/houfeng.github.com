@@ -35,10 +35,9 @@ html {
 	overflow-y:scroll;
 }
 body {
-	-moz-background-size:100% auto;
 	background-attachment:fixed;
 	background: #000 url(../images/bg.png);
-	background-position:center center;
+	/*background-position:center center;*/
 	font-family:"Helvetica Neue",Helvetica,微软雅黑,Verdana,Arial,sans-serif;
 }
 h2, h3, h4, h5, h6 {
