@@ -270,6 +270,7 @@ pre {
 	white-space:pre-wrap;
 	width:740px;
 	word-wrap:break-word;
+	border:solid 1px #aaa;
 }
 div.notice {
 	-moz-border-radius:5px 5px 5px 5px;
@@ -448,5 +449,6 @@ div#disqus_thread li ul li {
 /*google search*/
 .gsc-thumbnail-inside, .gsc-url-top{padding-left: 0px !important;}
 .gsc-search-button { vertical-align: middle;}
+.gsc-control-cse { background:transparent;}
 /*duo shuo*/
 .ds-powered-by, .ds-logo {display: none !important;}
