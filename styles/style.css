@@ -450,6 +450,10 @@ div#disqus_thread li{
 div#disqus_thread li ul li {
 	list-style:none;
 }
+.copyright{
+	padding: 5px;
+	text-align: center;
+}
 
 /*google search*/
 .gsc-thumbnail-inside, .gsc-url-top{padding-left: 0px !important;}
