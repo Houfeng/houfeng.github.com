@@ -73,8 +73,8 @@ div#wrapper {
 	-moz-box-shadow:0 1px 0 #FFFFFF;
 	-webkit-box-shadow:0 1px 0 #FFFFFF;
 	box-shadow:0 1px 0 #FFFFFF;
-	filter:alpha(opacity=90);
-	opacity: 0.9;
+	/*filter:alpha(opacity=90);
+	opacity: 0.9;*/
 	background:#f4f4f4 url(../images/bg-5.png);
 	color:#111;
 	font-size:14px;
