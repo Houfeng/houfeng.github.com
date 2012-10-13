@@ -42,7 +42,7 @@ published: true
 #### 解析(jtp.parse)
 代码:
 
-{% highlight javascript %}
+{% highlight js %}
 var html='<div>My name is <@$(this.name)@></div>';
 var rs=jtp.parse(html,{name:'jtp'});
 {% endhighlight %}
@@ -56,7 +56,7 @@ var rs=jtp.parse(html,{name:'jtp'});
 #### 编译(jtp.complite)
 代码:
 
-{% highlight javascript %}
+{% highlight js %}
 	var html='<div>My name is <@$(this.name)@></div>';
 	var fn=jtp.complite(html);
 	var rs=fn({name:'jtp'});
