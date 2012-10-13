@@ -49,7 +49,7 @@ var rs=jtp.parse(html,{name:'jtp'});
 
 {% endhighlight %}
 
-结果:
+结果: 
 
 {% highlight html %}
 
