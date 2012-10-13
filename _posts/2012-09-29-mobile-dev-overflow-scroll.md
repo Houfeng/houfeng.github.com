@@ -39,9 +39,9 @@ published: true
 1. 定义样式 overflow:hidden， 然后处理touchstart、touchmove、touchend事件，控制scrollTop完成滚动功能，此种方式较为简洁，并易于实现。
 2. 定义样式 overflow:hidden，并且要求容器内的元素必须有一个内层嵌套外层单一元素比如：
 {% highlight html %}
->&lt;div class="ui-scroll"&gt;
-	&lt;div class="ui-scroll-inner"&gt;&lt;/div&gt;
-&lt;/div&gt;
+<div class="ui-scroll">
+	<div class="ui-scroll-inner"> </div>
+</div>
 {% endhighlight %}
 
 然后去控制内层元素的margin-top或margin-left。此种方式稍现麻烦，但可以使用css3的transform2d 控制内层元素translate来实现（此种方法在某些设备上能获得较好的性能）。
