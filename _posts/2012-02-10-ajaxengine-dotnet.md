@@ -75,6 +75,7 @@ AjaxEngine的思路还是较为巧妙的！
  
 Handler使用Demo:
 
+服务端:
 {% highlight csharp %}
      using AjaxEngines;
      using AjaxEngines.JsonHandlers;
@@ -92,6 +93,10 @@ Handler使用Demo:
            }
        }
      }
+{% endhighlight %}
+
+客户端:
+{% highlight javascript %}
      $.getJSON("Handler1.ashx", { method: "add", x: 1, y: 2 }, function (dt) {
            alert(dt);
      });
