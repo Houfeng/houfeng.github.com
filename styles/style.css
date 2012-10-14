@@ -228,8 +228,8 @@ div#content li ul li {
 }
 .cnt h3 {
 	background:none repeat scroll 0 0 #000;
-	filter:alpha(opacity=60);
-	opacity: 0.6;
+	filter:alpha(opacity=70);
+	opacity: 0.7;
 	color:#eee;
 	font-size:25px;
 	margin:20px -20px;
