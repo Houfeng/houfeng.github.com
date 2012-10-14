@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 最快、最简洁的javascript模板引擎jtp
+title: 最快,最简洁的javascript模板引擎jtp
 category: 编程
-published: true
+published: false
 ---
 
 ### 欢迎来到jtp的世界
@@ -67,4 +67,3 @@ var rs=jtp.parse(html,{name:'jtp'});
 {% highlight html %}
 	<div>My name is jtp</div>
 {% endlighlight %}
-
