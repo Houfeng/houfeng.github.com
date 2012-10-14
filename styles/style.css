@@ -74,8 +74,8 @@ div#wrapper {
 	box-shadow:0 1px 0 #FFFFFF;
 	/*filter:alpha(opacity=90);
 	opacity: 0.9;*/
-	background:rgba(0,0,0,0.5);
-	background:#f4f4f4 url(../images/bg-5.png);
+	background:rgba(244,244,244,0.5);
+	background:rgba(244,244,244,0.5) url(../images/bg-5.png);
 	color:#111;
 	font-size:14px;
 	line-height:190%;
