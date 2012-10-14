@@ -2,7 +2,7 @@
 layout: post
 title: 最快,最简洁的javascript模板引擎jtp
 category: 编程
-published: false
+published: true
 ---
 
 ### 欢迎来到jtp的世界
