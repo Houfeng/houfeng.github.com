@@ -72,7 +72,7 @@ div#wrapper {
 	-moz-box-shadow:0 1px 0 #FFFFFF;
 	-webkit-box-shadow:0 1px 0 #FFFFFF;
 	box-shadow:0 1px 0 #FFFFFF;
-	background:#f4f4f4;/*url(../images/bg-5.png);*/
+	background:#fff url(../images/bg-5.png);
 	color:#111;
 	font-size:14px;
 	line-height:190%;
