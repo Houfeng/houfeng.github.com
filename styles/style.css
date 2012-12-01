@@ -41,7 +41,7 @@ body {
 	font-family:"Helvetica Neue",Helvetica,微软雅黑,Verdana,Arial,sans-serif;
 }
 h2, h3, h4, h5, h6 {
-	color:#333333;
+	color:#111;
 }
 p, h2, h3, h4, h5, h6, ul {
 	margin:0;
@@ -60,7 +60,7 @@ span#beans {
 	color:#72BF44;
 }
 a:hover, a:hover span#eighty, a:hover span#beans {
-	color:#444444;
+	color:#111;
 }
 h1 a:hover {
 	color:#ddd;
@@ -72,8 +72,8 @@ div#wrapper {
 	-moz-box-shadow:0 1px 0 #FFFFFF;
 	-webkit-box-shadow:0 1px 0 #FFFFFF;
 	box-shadow:0 1px 0 #FFFFFF;
-	background-color: #eee;
-	background-color: rgba(222,222,222,50);
+	background-color: #e3e3e3;
+	background-color: rgba(200,200,200,50);
 	/*background:#fff url(../images/bg-5.png);*/
 	color:#111;
 	font-size:14px;
