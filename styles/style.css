@@ -36,7 +36,7 @@ html {
 }
 body {
 	background-attachment:fixed;
-	background: #000 url(../images/bg-5.png);
+	background: rgb(255,0,255) url(../images/bg-5.png);
 	/*background-position:center center;*/
 	font-family:"Helvetica Neue",Helvetica,微软雅黑,Verdana,Arial,sans-serif;
 }
