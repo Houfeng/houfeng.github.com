@@ -7,9 +7,9 @@ published: true
 ---
 
 ###mac系统如何显示和隐藏文件   
-苹果Mac OS X操作系统下，隐藏文件是否显示有很多种设置方法，最简单的要算在Mac终端输入命令。显示/隐藏Mac隐藏文件命令如下(注意其中的空格并且区分大小写)：  
+苹果Mac OS X操作系统下，隐藏文件是否显示有很多种设置方法，最简单的要算在Mac终端输入命令。显示/隐藏Mac隐藏文件命令如下(注意其中的空格并且区分大小写)：   
 显示Mac隐藏文件的命令：defaults write com.apple.finder AppleShowAllFiles -bool true
-
+ 
 隐藏Mac隐藏文件的命令：defaults write com.apple.finder AppleShowAllFiles -bool false
 
 
