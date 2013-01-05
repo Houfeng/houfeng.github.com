@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>oauth2.0</title>
+	</head>
+	<script type="text/javascript">
+		(function (owner) {
+			var _win=window.parent || window.opener;
+			var _code=location.href.toString().split('?')[1];
+			if(_code){
+				_code=_code.split('=')[1];
+			}
+			if(_code){
+				alert(_code);
+				_win.postMessage(_code,"*");
+			}
+		}());
+	</script>
+	<body>
+	请稍候...
+	</body>
+</html>
