@@ -6,6 +6,9 @@
 		(function (owner) {
           	window.onload=function(){
               var _win=window.parent || window.opener;
+              if(!_win){
+              	return;
+              }
               var _code=location.href.toString().split('?')[1];
               if(_code){
                   _code=_code.split('=')[1];
