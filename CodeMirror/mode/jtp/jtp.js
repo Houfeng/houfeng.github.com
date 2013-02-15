@@ -56,10 +56,10 @@ CodeMirror.defineMode("jtp", function(config, parserConfig) {
        htmlState : CodeMirror.copyState(htmlMixedMode, state.htmlState),
        scriptState : CodeMirror.copyState(scriptingMode, state.scriptState)
       };
-    },
+    }/*,
     
 
-    electricChars: "/{}:"
+    electricChars: "/{}:"*/
   };
 }, "htmlmixed");
 
