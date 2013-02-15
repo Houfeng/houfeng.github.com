@@ -59,7 +59,7 @@ CodeMirror.defineMode("jtp", function(config, parserConfig) {
     },
     
 
-    electricChars: "/{}:"
+    electricChars: "" //"/{}:"
   };
 }, "htmlmixed");
 
