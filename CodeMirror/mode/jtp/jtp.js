@@ -1,8 +1,8 @@
 CodeMirror.defineMode("jtp", function(config, parserConfig) {
   
   //config settings
-  var scriptStartRegex = parserConfig.scriptStartRegex || /^\{#/i,
-      scriptEndRegex = parserConfig.scriptEndRegex || /^\{#/i;
+  var scriptStartRegex = parserConfig.scriptStartRegex || /^#/i,
+      scriptEndRegex = parserConfig.scriptEndRegex || /^#/i;
   
   //inner modes
   var scriptingMode, htmlMixedMode;
@@ -59,7 +59,7 @@ CodeMirror.defineMode("jtp", function(config, parserConfig) {
     },
     
 
-    electricChars: "" //"/{}:"
+    electricChars: "/{}:"
   };
 }, "htmlmixed");
 
