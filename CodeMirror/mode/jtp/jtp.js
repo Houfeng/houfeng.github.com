@@ -63,5 +63,5 @@ CodeMirror.defineMode("jtp", function(config, parserConfig) {
   };
 }, "htmlmixed");
 
-CodeMirror.defineMIME("application/x-jtp", { name: "jtp", scriptingModeSpec:"javascript"});
+CodeMirror.defineMIME("application/x-jtp", { name: "jtp"});
 
